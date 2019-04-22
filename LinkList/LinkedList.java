@@ -1,7 +1,7 @@
 package Practice1.HomeWork_6.LinkList;
 
 import java.util.ArrayList;
-import java.util.Iterator;
+
 
 public class LinkedList {
     ArrayList<Node> myList = new ArrayList<>();
