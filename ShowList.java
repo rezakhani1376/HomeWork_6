@@ -1,4 +1,16 @@
 package Practice1.HomeWork_6;
 
+import java.util.List;
+
 public class ShowList {
+
+    public static void showList(List<Integer> listArray){
+        System.out.print("[");
+        for (Integer item: listArray
+             ) {
+            System.out.print(","+item);
+        }
+        System.out.print("]");
+    }
+
 }
